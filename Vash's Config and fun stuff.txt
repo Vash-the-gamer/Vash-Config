@@ -1,0 +1,278 @@
+// ----------------------------------------------------------------------------
+//                    [THIS IS A CONFIG, OR CFG, FILE THAT I USE.]
+//                          [I HOPE YOU FIND THIS HELPFULL]
+
+// ----------------------------------------------------------------------------
+
+//                                [NETWORK STUFF]
+
+// ----------------------------------------------------------------------------
+// You will need to ajust this to fit best with you internet conechon.
+
+cl_cmdrate 40
+cl_interp 0
+cl_interp_ratio 2
+cl_lagcompensation 1
+cl_pred_optimize 2
+cl_smooth 0
+cl_smoothtime 0.01
+cl_updaterate 40
+rate 35000
+
+// ----------------------------------------------------------------------------
+
+//                          [STUPID, FUN AND USEFUL STUFF]
+
+// ----------------------------------------------------------------------------
+// These are a bunch of pree set chat taunts that you can use in game in sted oif typing in the chat your self.
+
+// Press the [-] button to sau these taunts.
+alias taunt1 "say Did you know that in real life not everyone gets icecream after they lose the game?; bind - taunt2"
+alias taunt2 "say Scoop it up... and notify its next of kin...; bind - taunt3"
+alias taunt3 "say Repent and thou shall be saved... of some agony; bind - taunt4"
+alias taunt4 "say Ewwwww... Thats GOT to hurt...; bind - taunt5"
+alias taunt5 "say Take a seat and the nurse will be right with you...;  bind - taunt6"
+alias taunt6 "say Like a deer in the headlights...;  bind - taunt7"
+alias taunt7 "say Thankyou, and come again... NEXT!!!;  - taunt8"
+alias taunt8 "say Theres a glitch in the matrix, I killed your teammates, then I killed them all a second time..;  bind - taunt9"
+alias taunt9 "say Definatly NOT an open casket funeral...;  bind - taunt10"
+alias taunt10 "say I'm sorry... Did I break your concentration...; bind - taunt1"
+bind - taunt1
+
+// ----------------------------------------------------------------------------
+
+// Press the [=] button to use these taunts.
+
+alias comeback1 "say I know your really laughing on the inside... look on the ground, right there next to your spleen...; bind = comeback2"
+alias comeback2 "say In case of an Emergency, place your head between your legs... and kiss your @$$ goodbye...; bind = comeback3"
+alias comeback3 "say Dont leave angry... just leave...; bind = comeback4"
+alias comeback4 "say Would you like some Cheese with your Whine?; bind = comeback5"
+alias comeback5 "say Don't Upset Me!!! I'm running out of places to hide the bodies; bind = comeback6"
+alias comeback6 "say You occasionally stumble over the truth, but you quickly pick yourself up and carry on as if nothing happened.; bind = comeback7"
+alias comeback7 "say It's pointless to make fun of you because it will take you the rest of the round to figure it out.; bind  = comeback8"
+alias comeback8 "say You act like your ignorance is a virtue.; bind = comeback9"
+alias comeback9 "say If you're gonna be a smartass, first you have to be smart. Otherwise you're just an ass.; bind = comeback1"
+bind = comeback1
+
+// ----------------------------------------------------------------------------
+// These are a set of reddy up lines for MvM.
+// Thay will actavete when you press [F3] in MvM.
+
+alias readyup1 "say Press F4 to meet hot singles in your area.; bind f3 readyup2"
+alias readyup2 "say Do you like food? Press F4 for free food!; bind f3 readyup3"
+alias readyup3 "say Free australium items!!!!!! If you press F4.; bind f3 readyup4"
+alias readyup4 "say Press F4 for free chocolate chip cookies.; bind f3 readyup5"
+alias readyup5 "say Did you know that if you press F4 the wave will start?; bind f3 readyup6"
+alias readyup6 "say I wonder what will haping if you press F4? Lets find out press f4.; bind f3 readyup7"
+alias readyup7 "say Press F4 and to victory we go!!!!!!!; bind f3 readyup8"
+alias readyup8 "say Drugs, Sex and PRESS F4!!!!!!!!!; bind f3 readyup9
+alias readyup9 "say If your happy and you know it press F4.; bind f3 readyup10
+alias readyup10 "say Press F4 for the best pie of your life.; bind f3 readyup11
+alias readyup11 "say I am now out of (ready up) binds. So just press F4 and lets get this shit over with.; bind f3 readyup1
+bind f3 readyup1
+// ----------------------------------------------------------------------------
+// These are some good game lines that you can say at the end of a game.
+// Thay weill actavaete when you press [0] on your keyborad.
+
+alias goodgame1 "say GG; bind 0 goodgame2"
+alias goodgame2 "say Good Game.; bind 0 goodgame3
+alias goodgame3 "say WP; bind 0 goodgame4
+alias goodgame4 "say Well Played; bind 0 goodgame5
+alias goodgame5 "say GG and WP!; bind 0 goodgame6
+alias goodgame6 "say Good Game and Well Played!; bind goodgame1 
+bind 0 goodgame1
+
+// ----------------------------------------------------------------------------
+// This bind will load a particular loadout preset. [A, B, C, D]
+
+bind i "load_itempreset 0"
+bind o "load_itempreset 1"
+bind p "load_itempreset 2"
+bind [ "load_itempreset 3"
+
+// ----------------------------------------------------------------------------
+// This is a kill key, in case you get stuck or need to kill your self.
+// This will actevate when you press [m] on your key borad.
+
+bind m explode
+
+// ----------------------------------------------------------------------------
+// This is in case somthing happins and you need to rejoin the server.
+// This will actevate when you press ['] on your key borad.
+
+bind ' retry
+
+// ----------------------------------------------------------------------------
+
+// This will only work if you have the (show damage done above player head) setting turnd on in the sttings part of your TF2 advansed opshons .
+// This will group together damage done to enemy in 1 number above their head.
+
+hud_combattext_batching 1
+hud_combattext_batching_window 2
+
+// ----------------------------------------------------------------------------
+
+//                             [THE FPS BOOSTING PART]
+
+// ----------------------------------------------------------------------------
+
+// This is a FPS boosting CONFIG. If you do not need, or want, this part then you should delete all the text below.
+
+// ----------------------------------------------------------------------------
+
+// To get the FPS part of this CFG file to lode you will need to add (dxlevel 81) to your launch options.
+// IMPORTANT: Remove dxlevel 81 from the launch options after the first launch!
+
+// ----------------------------------------------------------------------------
+mat_shadowstate 0
+r_shadowmaxrendered 0
+r_shadowrendertotexture 0
+r_shadows 0
+
+// ----------------------------------------------------------------------------
+
+r_eyes 1
+r_flex 1
+r_lod 1 
+r_rootlod 1
+r_teeth 1
+
+// ----------------------------------------------------------------------------
+
+cl_ragdoll_fade_time 0
+cl_ragdoll_forcefade 1
+cl_ragdoll_physics_enable 0
+g_ragdoll_fadespeed 0
+g_ragdoll_lvfadespeed 0
+ragdoll_sleepaftertime 0
+
+// ----------------------------------------------------------------------------
+
+cl_phys_props_enable 0
+cl_phys_props_max 0
+props_break_max_pieces 0
+r_propsmaxdist 1
+violence_agibs 0
+violence_hgibs 0
+
+// ----------------------------------------------------------------------------
+
+cl_detaildist 0
+cl_detailfade 0
+cl_drawmonitors 0
+cl_ejectbrass 0
+cl_jiggle_bone_framerate_cutoff 0
+cl_new_impact_effects 0
+cl_show_splashes 0
+func_break_max_pieces 0
+glow_outline_effect_enable 1
+lod_transitiondist 0
+mat_antialias 0
+mat_bumpmap 0
+mat_colcorrection_disableentities 1
+mat_colorcorrection 0
+mat_disable_bloom 1
+mat_disable_fancy_blending 1
+mat_disable_lightwarp 1
+mat_envmapsize 8
+mat_envmaptgasize 8
+mat_filterlightmaps 0
+mat_filtertextures 0
+mat_forceaniso 1
+mat_hdr_level 0
+mat_max_worldmesh_vertices 512
+mat_monitorgamma 2.0 
+mat_motion_blur_enabled 0
+mat_parallaxmap 0
+mat_picmip 2 
+mat_phong 0
+mat_reducefillrate 1
+mat_reduceparticles 1
+mat_specular 0 
+mat_trilinear 0
+mat_viewportscale 1 
+mat_viewportupscale 1
+mat_wateroverlaysize 1
+mp_decals 1 
+r_3dsky 0
+r_ambientboost 0
+r_ambientfactor 0
+r_ambientmin 0
+r_avglight 0
+r_cheapwaterend 1
+r_cheapwaterstart 1
+r_decals 1
+r_decalstaticprops 0
+r_decal_cullsize 15
+r_drawdetailprops 0
+r_drawmodeldecals 0
+r_drawflecks 0
+r_dynamic 0
+r_flashlightdepthtexture 0
+r_forcewaterleaf 1
+r_lightaverage 0
+r_maxnewsamples 2
+r_maxsampledist 1
+r_propsmaxdist 0
+r_renderoverlayfragment 0
+r_staticprop_lod 4
+r_waterdrawreflection 0
+r_waterdrawrefraction 1
+r_waterforceexpensive 0
+r_waterforcereflectentities 0
+rope_averagelight 0
+rope_collide 0
+rope_rendersolid 0
+rope_shake 0
+rope_smooth 0
+rope_subdiv 0
+rope_wind_dist 0
+tf_particles_disable_weather 1 
+tracer_extra 0
+violence_ablood 1
+violence_hblood 1
+
+// ----------------------------------------------------------------------------
+
+in_usekeyboardsampletime 0
+mat_clipz 1 
+mat_forcehardwaresync 0
+mat_levelflush 1
+mat_vsync 0 
+r_fastzreject -1
+
+// ----------------------------------------------------------------------------
+
+dsp_enhance_stereo 0
+dsp_slow_cpu 1
+snd_async_fullyasync 1 
+snd_pitchquality 0
+snd_spatialize_roundrobin 1
+
+// ----------------------------------------------------------------------------
+
+mat_queue_mode -1 
+
+cl_threaded_bone_setup 0
+cl_threaded_client_leaf_system 0
+r_queued_decals 0
+r_queued_ropes 1
+r_queued_post_processing 0
+r_threaded_client_shadow_manager 1
+r_threaded_particles 1
+r_threaded_renderables 1
+
+// ----------------------------------------------------------------------------
+
+cl_forcepreload 1
+
+// ----------------------------------------------------------------------------
+// This will apper on your in game consale apon a sucsessfull install for the config.
+
+echo "-------------------------------------------------------"
+echo "          Vash the Gamer's Config File Loaded.         "
+echo "                                                       "
+echo "               I hope this will help you.              "
+echo "                                                       "
+echo "      This CONFIG file whas made by Vash_the_Gamer.    "
+echo "-------------------------------------------------------"
