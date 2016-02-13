@@ -79,7 +79,7 @@ alias goodgame2 "say Good Game.; bind 0 goodgame3
 alias goodgame3 "say WP; bind 0 goodgame4
 alias goodgame4 "say Well Played; bind 0 goodgame5
 alias goodgame5 "say GG and WP!; bind 0 goodgame6
-alias goodgame6 "say Good Game and Well Played!; bind goodgame1 
+alias goodgame6 "say Good Game and Well Played!; 0 bind goodgame1 
 bind 0 goodgame1
 
 // ----------------------------------------------------------------------------
