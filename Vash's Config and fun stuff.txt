@@ -24,12 +24,6 @@ rate 35000
 //                          [STUPID, FUN AND USEFUL STUFF]
 
 // ----------------------------------------------------------------------------
-//Scoreboard + Netgraph when you press TAB.
-
-alias +scoreboardandnetgraph "+showscores; net_graph ; mp_showrespawntimes"
-alias -scoreboardandnetgraph "-showscores; net_graph 0"
-bind TAB +scoreboardandnetgraph
-
 // These are a bunch of pree set chat taunts that you can use in game in sted oif typing in the chat your self.
 
 // Press the [-] button to sau these taunts.
@@ -51,7 +45,7 @@ bind - taunt1
 
 alias comeback1 "say I know your really laughing on the inside... look on the ground, right there next to your spleen...; bind = comeback2"
 alias comeback2 "say In case of an Emergency, place your head between your legs... and kiss your @$$ goodbye...; bind = comeback3"
-alias comeback3 "say Don't leave angry... just leave...; bind = comeback4"
+alias comeback3 "say Dont leave angry... just leave...; bind = comeback4"
 alias comeback4 "say Would you like some Cheese with your Whine?; bind = comeback5"
 alias comeback5 "say Don't Upset Me!!! I'm running out of places to hide the bodies; bind = comeback6"
 alias comeback6 "say You occasionally stumble over the truth, but you quickly pick yourself up and carry on as if nothing happened.; bind = comeback7"
@@ -64,27 +58,27 @@ bind = comeback1
 // These are a set of reddy up lines for MvM.
 // Thay will actavete when you press [F3] in MvM.
 
-alias readyup1 "say Press F4 for the best pie of your life.; bind f3 readyup2"
+alias readyup1 "say Press F4 to meet hot singles in your area.; bind f3 readyup2"
 alias readyup2 "say Do you like food? Press F4 for free food!; bind f3 readyup3"
-alias readyup3 "say Drugs, Sex and PRESS F4!!!!!!!!!; bind f3 readyup4"
+alias readyup3 "say Free australium items!!!!!! If you press F4.; bind f3 readyup4"
 alias readyup4 "say Press F4 for free chocolate chip cookies.; bind f3 readyup5"
-alias readyup5 "say Press F4 to meet hot singles in your area.; bind f3 readyup6"
+alias readyup5 "say Did you know that if you press F4 the wave will start?; bind f3 readyup6"
 alias readyup6 "say I wonder what will haping if you press F4? Lets find out press f4.; bind f3 readyup7"
 alias readyup7 "say Press F4 and to victory we go!!!!!!!; bind f3 readyup8"
-alias readyup8 "say Free australium items!!!!!! If you press F4.; bind f3 readyup9
+alias readyup8 "say Drugs, Sex and PRESS F4!!!!!!!!!; bind f3 readyup9
 alias readyup9 "say If your happy and you know it press F4.; bind f3 readyup10
-alias readyup10 "say Did you know that if you press F4 the wave will start?; bind f3 readyup11
+alias readyup10 "say Press F4 for the best pie of your life.; bind f3 readyup11
 alias readyup11 "say I am now out of (ready up) binds. So just press F4 and lets get this shit over with.; bind f3 readyup1
 bind f3 readyup1
 // ----------------------------------------------------------------------------
 // These are some good game lines that you can say at the end of a game.
 // Thay weill actavaete when you press [0] on your keyborad.
 
-alias goodgame1 "say GG :); bind 0 goodgame2"
+alias goodgame1 "say GG; bind 0 goodgame2"
 alias goodgame2 "say Good Game.; bind 0 goodgame3
-alias goodgame3 "say WP :3; bind 0 goodgame4
+alias goodgame3 "say WP; bind 0 goodgame4
 alias goodgame4 "say Well Played; bind 0 goodgame5
-alias goodgame5 "say GG and WP! :D; bind 0 goodgame6
+alias goodgame5 "say GG and WP!; bind 0 goodgame6
 alias goodgame6 "say Good Game and Well Played!; 0 bind goodgame1 
 bind 0 goodgame1
 
@@ -115,26 +109,8 @@ bind ' retry
 
 hud_combattext_batching 1
 hud_combattext_batching_window 2
-//-----------------------------------------------------------------------------
-
-//                             [Class CFG]
 
 // ----------------------------------------------------------------------------
-
-// This part has some class specific parts.
-
-//Engineer
-// This will destroy your sentry or your sentry and dispenser 
-bind CAPSLOCK destroy
-alias destroy destroy 2 0
-alias destroy destroy 0 0; destroy 2 0
-bind CTRL +toggleState
-alias +toggleState "alias destroy destroy 0 0; destroy 2 0"
-alias -toggleState "alias destroy destroy 2 0"
-// This will destroy all your buildings.
-bind RSHIFT "destroy 0 0; destroy 1 0; destroy 1 1; destroy 2 0"
-
-//-----------------------------------------------------------------------------
 
 //                             [THE FPS BOOSTING PART]
 
