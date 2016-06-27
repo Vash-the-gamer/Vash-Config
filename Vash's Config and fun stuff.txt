@@ -126,9 +126,6 @@ hud_combattext_batching_window 2
 //Engineer
 // This will destroy your sentry or your sentry and dispenser 
 bind CAPSLOCK "destroy 2 0; build 2 0"
-bind CTRL "destroy destroy 0 0; destroy 2 0"
-// This will destroy all your buildings.
-bind RSHIFT "destroy 0 0; destroy 1 0; destroy 1 1; destroy 2 0"
 
 //-----------------------------------------------------------------------------
 
